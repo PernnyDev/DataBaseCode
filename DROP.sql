@@ -23,3 +23,8 @@ DROP TABLE IF EXISTS tb_funcionarios;
 
 -- Renomear a nova tabela para tb_funcionarios
 ALTER TABLE tb_funcionarios2 RENAME TO tb_funcionarios;
+
+Select * from tb_funcionarios
+update tb_funcionarios
+set salario = 1200
+where salario = 1100
